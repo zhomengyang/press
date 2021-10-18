@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+	/*	.a{
+			height: 200px;
+			width:100%;
+			background-color: gray;
+			text-align: center;
+			line-height:200px ;
+			color: transparent;
+		}*/ 
+		.a {
+		     height: 500px;
+			 width:100%;
+		     display: flex;
+		     align-items: center;
+		     justify-content: center;
+		     background :url(./4561862c-6ca9-4b30-9f68-4c6f46ff256c.jpg);
+		 }
+		
+		h1{
+			font:arial
+		}
+		span{
+			display: table-cell;
+			animation:san 3s linear infinite;
+		}
+		@keyframes san{
+		    0%,100%{
+		        color: rgb(255, 255, 255);         
+		        text-shadow: 0 0 5px rgb(1, 231, 247),
+		                    0 0 15px rgb(1, 231, 247),
+		                    0 0 25px rgb(1, 231, 247),
+		                    0 0 50px rgb(1, 231, 247),
+		                    0 0 80px rgb(1, 231, 247),
+		                    0 0 120px rgb(1, 231, 247),
+		                    0 0 160px rgb(1, 231, 247),
+		                    0 0 200px rgb(1, 231, 247),
+		                    0 0 300px rgb(1, 231, 247),
+		                    0 0 400px rgb(1, 231, 247),
+		                    0 0 500px rgb(1, 231, 247);
+		    }
+		    20%,80%{
+		       color: transparent;
+		       text-shadow: none;
+		    }
+		   
+		}
+		h1 span:nth-child(1){
+		    animation-delay:0s;
+		}
+		h1 span:nth-child(2){
+		    animation-delay:0.1s;
+		} 
+		h1 span:nth-child(3){
+		    animation-delay:0.2s;
+		}
+		h1 span:nth-child(4){
+		    animation-delay:0.3s;
+		}
+		h1 span:nth-child(5){
+		    animation-delay:0.4s;
+		}
+		h1 span:nth-child(6){
+		    animation-delay:0.5s;
+		}
+		h1 span:nth-child(7){
+		    animation-delay:0.6s;
+		}
+		h1 span:nth-child(8){
+		    animation-delay:0.7s;
+		}
+		h1 span:nth-child(9){
+		    animation-delay:0.8s;
+		}
+		h1 span:nth-child(10){
+		    animation-delay:0.9s;
+		}
+		
+		
+		
+		
+		
+		
+		
+		</style>
+	<body>
+		<div class="a">
+			<h1  align="center" >
+			<span >Happy</span>
+			<span> &nbsp; </span>
+			<span >birthday  </span>
+			<span> &nbsp; </span>
+			<span >to  </span>
+             <span>  &nbsp;</span>
+			<span >my  </span>
+			 <span> &nbsp; </span>
+	  		<span >best </span>
+			<span>&nbsp; </span>
+			<span>!</span>
+			</h1>
+	</body>
+</html>
